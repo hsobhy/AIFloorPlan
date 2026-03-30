@@ -18,7 +18,9 @@ For licensing inquiries and pricing, please contact:
 ## Contributors
 The following people have contributed to the development of this project:
 
-* Haitham Sobhy (@hsobhy) — Lead Developer
+* Hilary Bonnell — Interior design team
+* Jordan Fang — Interior design team
+* Haitham Sobhy (@hsobhy) — Development team
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
