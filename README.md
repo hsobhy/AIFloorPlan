@@ -22,7 +22,7 @@ The following people have contributed to the development of this project:
 * Jordan Fang — Interior design team
 * Haitham Sobhy (@hsobhy) — Development team
 * **Wai Yu Ho** (@Yukih20103) — Development team
-* **Shiva Reddy Pinnapureddy** (@shivareddypinnapu25@gmail.com) — [Brief description of contribution]
+* **Shiva Reddy Pinnapureddy** (@shivareddypinnapu25@gmail.com) — Development team
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
 
 ### Contributor Agreement
