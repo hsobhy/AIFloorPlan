@@ -21,7 +21,7 @@ The following people have contributed to the development of this project:
 * Hilary Bonnell — Interior design team
 * Jordan Fang — Interior design team
 * Haitham Sobhy (@hsobhy) — Development team
-* **[Contributor Name]** (@handle) — [Brief description of contribution]
+* **Wai Yu Ho** (@Yukih20103) — Development team
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
 
