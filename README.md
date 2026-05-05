@@ -18,9 +18,10 @@ For licensing inquiries and pricing, please contact:
 ## Contributors
 The following people have contributed to the development of this project:
 
-* Hilary Bonnell — Interior design team
-* Jordan Fang — Interior design team
-* Haitham Sobhy (@hsobhy) — Development team
+***Humber Polytechnic***
+* **Hilary Bonnell** — Interior design team
+* **Jordan Fang** — Interior design team
+* **Haitham Sobhy** (@hsobhy) — Development team
 * **Wai Yu Ho** (@Yukih20103) — Development team
 * **Shiva Reddy Pinnapureddy** (@shivareddypinnapu25@gmail.com) — Development team
 * **[Contributor Name]** (@handle) — [Brief description of contribution]
