@@ -1,5 +1,7 @@
 # AIFloorPlan
 
+**AIFloorPlan** is a Python-based system for detecting architectural elements from floor plan images using a YOLO object detection model. It preprocesses images, applies a trained YOLO model, and outputs labeled structural elements for analysis or further processing.
+
 ## License & Commercial Use
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. 
 
@@ -15,13 +17,18 @@ For licensing inquiries and pricing, please contact:
 
 ---
 
-**AIFloorPlan** is a Python-based system for detecting architectural elements from floor plan images using a YOLO object detection model. It preprocesses images, applies a trained YOLO model, and outputs labeled structural elements for analysis or further processing.
+## Project Overview
 
-## Features
-- YOLO-based object detection for floor plan components  
-- Pretrained model for room/class boundary recognition  
-- Dataset integration and preprocessing tools  
-- Deployment pipeline for inference and visualization  
+This project presents an AI-based Floor Plan understanding system that combines YOLO-based object detection, wall segmentation, and OCR-based text recognition.
+
+The system is built using:
+- YOLO for detecting structural components in floor plans
+- Custom wall detection model for improving layout consistency
+- EasyOCR for extracting textual information such as room labels
+
+The final goal is to convert raw floor plan images into structured, machine-readable representations.
+
+---
 
 ## Getting Started
 
@@ -29,20 +36,36 @@ For licensing inquiries and pricing, please contact:
 ```bash
 pip install -r requirements.txt
 ```
+---
+
+## Code Structure
+
+### AIFloorPlan-Yolo_v0.2.ipynb
+Implements YOLO-based object detection for identifying floor plan components such as rooms, doors, and structural elements.
+
+### AIFloorPlan-Wall_v0.2.ipynb
+Focuses on wall detection and refinement to improve structural accuracy of detected layouts.
+
+### AIFloorPlan-Easyocr_v0.1.ipynb
+Uses EasyOCR to extract text labels from floor plan images (e.g., room names, annotations).
+
+### /models
+Contains trained YOLO models and custom weights used for inference and evaluation.
 
 ---
 
-## Model and Dataset
+## Dataset and Models
 
 This project uses a YOLO-based object detection model for floor plan analysis.
 
-The dataset used for training is the Floor Plan Dataset available on Kaggle:
+The YOLO model was trained using a floor plan dataset from Kaggle:
 https://www.kaggle.com/datasets/asutoshprad/floor-plan-dataset
 
-The model is based on YOLOv8 from Ultralytics:
+The object detection component is based on the YOLO framework:
 https://github.com/ultralytics/ultralytics
 
-Training scripts, preprocessing steps, and inference pipeline are included in this repository.
+OCR is implemented using EasyOCR:
+https://github.com/JaidedAI/EasyOCR
 
 ---
 
