@@ -29,6 +29,8 @@ For licensing inquiries and pricing, please contact:
 ```bash
 pip install -r requirements.txt
 
+---
+
 ## Model and Dataset
 
 This project uses a YOLO-based object detection model for floor plan analysis.
