@@ -4,7 +4,7 @@
 
 ## Status
 This is Version 1 (v0.2) of the AIFloorPlan system.  
-The project is actively under development and will be updated with improved models, pipeline refinements, and expanded functionality.
+The project will be updated with improved models, pipeline refinements, and expanded functionality.
 
 ---
 
