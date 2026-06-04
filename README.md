@@ -2,6 +2,12 @@
 
 **AIFloorPlan** is a Python-based system for detecting architectural elements from floor plan images using a YOLO object detection model. It preprocesses images, applies a trained YOLO model, and outputs labeled structural elements for analysis or further processing.
 
+## Status
+This is Version 1 (v0.2) of the AIFloorPlan system.  
+The project is actively under development and will be updated with improved models, pipeline refinements, and expanded functionality.
+
+---
+
 ## License & Commercial Use
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. 
 
