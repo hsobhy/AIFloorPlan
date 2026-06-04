@@ -1,9 +1,10 @@
 # AIFloorPlan
 
 **AIFloorPlan** is a Python-based system for detecting architectural elements from floor plan images using a YOLO object detection model. It preprocesses images, applies a trained YOLO model, and outputs labeled structural elements for analysis or further processing.
+This project implements a multi-stage computer vision pipeline combining object detection, structural refinement, and OCR for floor plan understanding.
 
-## Status
-This is Version 1 (v0.2) of the AIFloorPlan system.  
+### Status
+This is Version v0.2 (2026) of the AIFloorPlan system.   
 The project will be updated with improved models, pipeline refinements, and expanded functionality.
 
 ---
@@ -60,6 +61,18 @@ Contains trained YOLO models and custom weights used for inference and evaluatio
 
 ---
 
+## Execution Order
+
+Run notebooks in the following order:
+1. AIFloorPlan-Yolo_v0.2.ipynb
+2. AIFloorPlan-Wall_v0.2.ipynb
+3. AIFloorPlan-Easyocr_v0.1.ipynb
+
+## Models Folder
+Contains trained YOLO weights and saved model checkpoints used for inference across different pipeline stages.
+
+---
+
 ## Dataset and Models
 
 This project uses a YOLO-based object detection model for floor plan analysis.
@@ -84,6 +97,7 @@ The following people have contributed to the development of this project:
 * **Haitham Sobhy** (@hsobhy) — AI Development team
 * **Wai Yu Ho** (@Yukih20103) — AI Development team
 * **Shiva Reddy Pinnapureddy** — AI Development team
+* **Chengze Li** — AI Development team
 
 ---
 
@@ -98,5 +112,7 @@ By contributing to this repository, you agree that:
 ## 🚀 How to Cite
 If you use this code in a project, research paper, or publication, please cite it as follows:
 
-> Sobhy, H., Ho, W. Y., & Pinnapureddy, S. R. (2026). AIFloorPlan [Source code]. GitHub. https://github.com/hsobhy/AIFloorPlan
+> AIFloorPlan v0.2 (2026).
+> Humber Polytechnic AI & Interior Design Teams. [Source code] 
+> GitHub repository: https://github.com/hsobhy/AIFloorPlan
 
