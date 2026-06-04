@@ -28,6 +28,7 @@ For licensing inquiries and pricing, please contact:
 ### Requirements
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
